@@ -1546,6 +1546,7 @@ div#video-container {
 .side-deals-box.consumer-business-box span.line1 {
     top: 20.3%;
     right: 0;
+    /* display:none; */
 }
 .side-deals-box.consumer-business-box span img {
     width: 100%;
