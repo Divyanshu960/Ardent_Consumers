@@ -1343,10 +1343,10 @@ div#video-container {
     border-right: 2px solid var(--colors-neutrals-3, #C2BFBA);
     padding: 48px;
     height: 100%;
-    background: #e7e7e7;
+    background: #B6CBF5;
 }
 .for-sponsors-side-deals-main {
-    background: #e7e7e7;
+    background: #B6CBF5; /*changed*/
 }
 .for-sponsors-box-area .side-deals-box .side-image {
     margin-bottom: 21px;

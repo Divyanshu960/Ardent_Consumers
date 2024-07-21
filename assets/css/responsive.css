@@ -695,7 +695,14 @@
 } */
 
 @media(max-width:1600px) {
-
+.container{ 
+    max-width: 1536px;
+}
+.home-main{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
 section.hero_section {
     padding: 0px 50px;
 }
@@ -726,6 +733,16 @@ span.des {
 }
 .home-main-box .service-box .image img {
     height: 70px;
+}
+.transactions-box-area .transactions-box {
+    padding-top: 48px;
+    padding-right: 48px;
+    padding-bottom: 0px;
+    padding-left: 48px;
+    background: #FAFAFAE5;
+    border-right: 2px solid var(--colors-neutrals-3, #C2BFBA);
+    height: 100%;
+    backdrop-filter: blur(7.5px);
 }
 .home-main-box .service-box h4 {
     font-family: Nohemi;
@@ -763,6 +780,9 @@ span.des {
 
 
 @media(max-width:1536px) {
+    .container{
+        max-width: 1440px;
+    }
     .counter-box h2 {
         font-size: 57.935px;
     }
@@ -771,9 +791,10 @@ span.des {
         height: 337px;
     }
     .transactions-box-area .transactions-box .sponsors-logo-box {
-        margin-top: 50px;
-        column-gap: 15px;
+        margin-top: 0px;
+        column-gap: 10px;
         row-gap: 27px;
+        
     }
     .transactions-box-area .transactions-box .sponsors-logo-box .sponsors-image-box img {
         height: 66px;
@@ -793,6 +814,9 @@ span.des {
 
 
 @media(max-width:1440px) {
+    .container{
+        max-width: 1336px;
+    }
     .home-main-box .consumer-service-section {
         column-gap: 20px;
     }
@@ -826,6 +850,10 @@ span.des {
 
 
 @media(max-width:1366px) {
+
+    .container{
+        max-width: 1280px;
+    }
     .home-main-box {
         padding: 35px 0px 40px;
     }
@@ -866,12 +894,25 @@ span.des {
     .home-main-box .service-box {
         max-width: 147px;
     }
-
+    .client-testimonial .client-content {
+        position: absolute;
+        font-family: Nohemi;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        padding-left: 32px;
+        align-items: center;
+        z-index: 1;
+    }
     .transactions-box-area .transactions-box .sponsors-logo-box .sponsors-image-box img {
         height: 56px;
     }
     .client-testimonial {
         height: 293px;
+        text-align: center;
     }
     .transactions-box-area .consumer-service-section .service-box {
         max-width: 151px;
@@ -1087,7 +1128,7 @@ span.des {
         width: 100%;
         height: 77px;
         display: flex;
-        justify-content: start;
+        justify-content: center;
         padding-left: 18px;
         align-items: center;
         z-index: 1;
@@ -1407,6 +1448,11 @@ span.des {
         display: flex;
         flex-direction: column;
     }
+    .about-bottom-box{
+        display: flex;
+        align-items: center;
+    justify-content: center;
+    }
     .about-box-area .bottom-area .about-box-section > .about-bottom-box:nth-child(1) {
         width: 100%;
         height: max-content;
@@ -1432,6 +1478,7 @@ span.des {
         width: fit-content;
         margin-left: 0px;
         margin-top: 20px;
+        
     }
     .about-box-area .top-area .different-area {
         display: flex;
@@ -1461,29 +1508,58 @@ span.des {
     }
 }
 
+@media(max-width:820px) and (max-height:1180px){
+    .side-deals-box.consumer-business-box span.line1 ,.side-deals-box.consumer-business-box span.line2 ,.side-deals-box.consumer-business-box span.line3{
+        display:none;
+    }
 
+}
 @media(max-width:768px) {
+    
+    .for-sponsors-box-area .side-deals-box.consumer-business-content-box p {
+        margin-top: 6px;
+        font-size: 18px;
+        line-height: normal;
+        margin-right: 6px;
+    }
+    .about-box-area .bottom-area .about-bottom-box p{
+        text-align: justify;
+    }
     .home-main {
         overflow: visible;
         height: 100vh;
+        /* height: 100%; */
     }
     section.hero_section {
         padding: 0px 0px;
-        height: 100%;
+        height: 943px;
     }
     section.hero_section .container-fluid,
     section.hero_section .row {
-        height: 100%;
+        height: 943px;
     }
     section.hero_section .row .col-lg-10.col-12 {
         height: 85%;
-        padding: 20px 20px;
+        
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
     }
+    
     .home-main-box {
         padding: 25px 0px 0px;
+        justify-content: space-around;
+
     }
     .logo_head {
         margin-top: 0px;
+        padding: 0px 20px;
+    }
+    .bottom-area{
+        padding: 0px 20px;
+    }
+    .usp-cont {
         padding: 0px 20px;
     }
     .hero_heading {
@@ -1701,14 +1777,23 @@ span.des {
         background: var(--colors-neutrals-2, rgba(134, 131, 126, 1));
     }
     .consumer-business-content-box ul li:nth-child(1) {
+        width: 100%;
         margin-left: 0;
+        text-align: left;
+        
 
     }
     .consumer-business-content-box ul li:nth-child(2) {
         margin-top: 19px;
+        width: 100%;
+        margin-left: 0;
+        text-align: left;
     }
     .consumer-business-content-box ul li:nth-child(3) {
         margin-left: 0;
+        width: 100%;
+        margin-left: 0;
+        text-align: left;
     }
     .side-deals-box.consumer-business-box span {
         display: none;
@@ -1837,7 +1922,7 @@ span.des {
         padding: 0px 0px;
     }
     .service-box {
-        width: 119px;
+        width: 120px;
     }
     .marquee_logo {
         margin-right: 2rem;
@@ -1855,9 +1940,7 @@ span.des {
         margin-top: 33px;
         padding: 0px 20px;
     }
-    .usp-cont {
-        padding: 0px 20px;
-    }
+    
     .inner-logo img {
         height: 63px;
     }
@@ -1966,15 +2049,30 @@ span.des {
         width: fit-content;
         margin-left: 0px;
         margin-top: 34px;
+        
     }
     header .menu ul li.dropdown > ul {
         border: none;
+    }
+    .client-testimonial {
+        position: relative;
+        height: 203px;
     }
     
 }
 
 
-@media(max-width:480px) {
+@media(max-width:480px) and (min-width:430px){
+    .for-sponsors-box-area.for-consumer-business .side-deals-box .side-image img{
+        height:auto;
+        width:100%;
+    }
+    .video-wrapper {
+        height: 203px;
+    }
+    .breadcrumb-box ul{
+        display:none
+    }
     .for-sponsors-box-area .sponsors-bottom marquee ul {
         display: flex;
         list-style: none;
@@ -2063,11 +2161,11 @@ span.des {
         line-height: 65px;
     }
     .client-testimonial {
-        position: relative;
-        height: max-content;
+        position: static;
+        height: 240px;
     }
     .video-wrapper {
-        height: 248px;
+        height: 240px;
     }
     .transactions-box-area .consumer-service-section {
         padding: 26px;
@@ -2723,9 +2821,16 @@ span.des {
     }
 }
 
-@media(max-width:400px) {
+@media(max-width:414px) {
+    .for-sponsors-box-area.for-consumer-business .side-deals-box .side-image img{
+        height:auto;
+        width:100%;
+    }
     .video-wrapper {
         height: 203px;
+    }
+    .breadcrumb-box ul{
+        display:none
     }
     .about-box-area .top-area .different-area .different-box .different-right h5 {
         font-family: Nohemi;
@@ -2789,7 +2894,7 @@ span.des {
         border-right: 0;
         padding: 34px 20px;
         height: auto;
-        background: #e7e7e7;
+        background: #B6CBF5;
     }
     .for-sponsors-box-area .side-deals-box h3 {
         font-family: Nohemi;
@@ -2961,8 +3066,13 @@ span.des {
     }
 }
 
-@media(max-width:380px) {
+@media(max-width:390px) and (min-width:380px){
+    .for-sponsors-box-area.for-consumer-business .side-deals-box .side-image img{
+        height:auto;
+        width:100%;
+    }
     .contact-box-area {
+        
         border: 2px solid #C2BFBA80;
         border-radius: 16px;
         height: max-content;
@@ -3004,7 +3114,7 @@ span.des {
         fill: white;
     }
     .about-box-area .bottom-area .about-box-section > .about-bottom-box:nth-child(1) {
-        margin-top: 32px;
+        margin-top: 13px;
     }
     .sponsors-box-area .consumer-deals-box form .form-control {
         height: 50px;
@@ -3038,7 +3148,9 @@ span.des {
         width: 169.32px;
         height: 177px;
     }
-
+    .breadcrumb-box ul{
+        display:none
+    }
 
     .consumer-business-content-box ul li h4 {
         font-family: Nohemi;
@@ -3108,8 +3220,23 @@ span.des {
 
 
 @media(max-width:360px) {
+    .for-sponsors-box-area.for-consumer-business .side-deals-box .side-image img{
+        height:auto;
+        width:100%;
+    }
+    .breadcrumb-box ul{
+        display:none
+    }
+    /* .for-sponsors-box-area .side-deals-box .side-image{
+        height: 100%;
+        width:100%;
+    } */
     .about-box-area .top-area h3 {
         font-size: 20px;
+    }
+    .col-xl-5 col-lg-5 p-0{
+        height: 322px;
+        width: 346.23px;
     }
     .top-area .different-area .different-box .different-right p {
         font-size: 15px;
