@@ -893,7 +893,7 @@
         width: 342px;
     }
     .created-box {
-        height: 54%;
+        height: 40%;
     }
 }
 @media(max-width:1920px){
@@ -943,6 +943,11 @@
         margin-left: -35px;
         margin-right: 35px;
     }
+    #carwa
+    {
+        margin-left: -35px;
+        margin-right: 35px;
+    }
 }
 
 
@@ -951,6 +956,10 @@
     #restro {
         margin-left: -30px;
         margin-right: 30px;
+    }
+    #carwa{
+        margin-left: 10px;
+        margin-right: 10px;
     }
 .container{ 
     max-width: 1536px;
@@ -1139,10 +1148,10 @@ span.des {
 }
 
 
-@media(max-width:1366px) {.created-box {
+@media(max-width:1366px) {
+    .created-box {
     height: 49%;
-}
-    
+    }
     .container{
         max-width: 1280px;
     }
