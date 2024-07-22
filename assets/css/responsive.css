@@ -896,7 +896,8 @@
         height: 54%;
     }
 }
-@media(min-width:1920px){
+@media(max-width:1920px){
+    
     .created-box {
         height: 42%;
     }
@@ -938,11 +939,19 @@
         margin-bottom: 21px;
         height: 70%;
     }
+    #restro {
+        margin-left: -35px;
+        margin-right: 35px;
+    }
 }
 
 
 
 @media(max-width:1600px) {
+    #restro {
+        margin-left: -30px;
+        margin-right: 30px;
+    }
 .container{ 
     max-width: 1536px;
 }
@@ -1024,6 +1033,11 @@ span.des {
     position: relative;
     height: 351px;
 }
+
+.created-box {
+    height: 49%;
+}
+
 }
 
 
@@ -1076,10 +1090,20 @@ span.des {
         backdrop-filter: blur(7.5px);
         height: 100%;
     }
+    .created-box {
+        height: 46%;
+    }
 }
 
 
 @media(max-width:1440px) {
+    #restro {
+    margin-left: -10px;
+    margin-right: 10px;
+}
+    .created-box {
+        height: 48%;
+    }
     .container{
         max-width: 1336px;
     }
@@ -1115,7 +1139,9 @@ span.des {
 }
 
 
-@media(max-width:1366px) {
+@media(max-width:1366px) {.created-box {
+    height: 49%;
+}
     
     .container{
         max-width: 1280px;
@@ -1199,9 +1225,15 @@ span.des {
         font-size: 51.935px;
     }
 }
-
+@media (max-width:1280px) {
+    .created-box {
+        height: 50%;
+    }
+}
 @media only screen and (min-width: 1280px) and (min-height: 1024px) and (max-width: 1280px) and (max-height: 1024px) {
-    
+    .created-box {
+        height: 58%;
+    }
     .home-main-box .consumer-service-section {
         column-gap: 19px;
     }
@@ -1288,9 +1320,17 @@ span.des {
     .transactions-box-area .consumer-service-section .service-box .image img {
         height: 63px;
     }
+    .created-box {
+        height: 50%;
+    }
 }
 
 @media(max-width:1024px) {
+    #restro {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    
     section.hero_section {
         padding: 0px 21px;
     }
@@ -1775,14 +1815,6 @@ span.des {
         padding-top: 142px;
     }
 }
-
-@media(max-width:820px) and (max-height:1180px){
-    .side-deals-box.consumer-business-box span.line1 ,.side-deals-box.consumer-business-box span.line2 ,.side-deals-box.consumer-business-box span.line3{
-        display:none;
-    }
-
-}
-
 
 @media(max-width:768px) {
     
