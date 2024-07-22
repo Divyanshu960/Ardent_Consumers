@@ -111,7 +111,7 @@ body {
     letter-spacing: -0.176px;
 }
 video.bg_vid {
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
     z-index: -1;
@@ -1023,10 +1023,11 @@ header.inner-header .get-in-touch-btn {
     display: flex;
     margin-top: 32px;
     flex-wrap: wrap;
-    column-gap: 24px;
+    column-gap: 56px;
 }
 .home-main-box .service-box {
-    max-width: 225px;
+    max-width: 144px;
+    height: 68px;
     border-left: 2px solid #FFFFFF80;
     display: flex;
     align-items: center;
