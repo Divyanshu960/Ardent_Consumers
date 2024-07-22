@@ -1,70 +1,4 @@
-/* @media(max-width:2560px) {
-    .for-sponsors-box-area.for-consumer-business .side-deals-box .side-image img {
-        width: auto;
-        height: 975px;
-    }
-    .side-deals-box.consumer-business-box span.line1 {
-        top: 18.3%;
-        right: 0;
-    }
-    .side-deals-box.consumer-business-box span {
-        position: absolute;
-        width: 456px;
-    }    
-    .side-deals-box.consumer-business-box span.line2 {
-        top: 39.5%;
-        right: -33px;
-        width: 375px;
-    }
-    .side-deals-box.consumer-business-box span.line3 {
-        top: 61%;
-        right: 0;
-        width: 342px;
-    }
-}
-@media(max-width:1920px) {
-    .client-testimonial {
-        position: relative;
-        height: 425px;
-    }
-    .transactions-box-area .transactions-box .sponsors-logo-box {
-       margin-top: 70px;
-    }
-    video#video {
-        height: 100%;
-        width: auto;
-    }
-    .for-sponsors-box-area.for-consumer-business .side-deals-box .side-image img {
-        width: auto;
-        height: 730px;
-    }
-    .side-deals-box.consumer-business-box span {
-        position: absolute;
-        width: 351px;
-    }
-    .side-deals-box.consumer-business-box span.line1 {
-        top: 19.3%;
-        right: 0;
-    }
-    .side-deals-box.consumer-business-box span.line2 {
-        top: 44.5%;
-        right: -33px;
-        width: 351px;
-    }
-    .side-deals-box.consumer-business-box span.line3 {
-        top: 70%;
-        right: 0;
-        width: 355px;
-    }
-    .for-sponsors-box-area .side-deals-box .side-image img {
-        width: 100%;
-        height: auto;
-    }
-    .for-sponsors-box-area .side-deals-box .side-image {
-        margin-bottom: 21px;
-        height: 70%;
-    }
-} */
+/*  */
 /* @media(max-width:1860px) {
     .service-box {
         width: 140px;
@@ -933,6 +867,72 @@
         margin-bottom: 16px;
     }
 } */
+@media(max-width:2560px) {
+    .for-sponsors-box-area.for-consumer-business .side-deals-box .side-image img {
+        width: auto;
+        height: 975px;
+    }
+    .side-deals-box.consumer-business-box span.line1 {
+        top: 18.3%;
+        right: 0;
+    }
+    .side-deals-box.consumer-business-box span {
+        position: absolute;
+        width: 456px;
+    }    
+    .side-deals-box.consumer-business-box span.line2 {
+        top: 39.5%;
+        right: -33px;
+        width: 375px;
+    }
+    .side-deals-box.consumer-business-box span.line3 {
+        top: 61%;
+        right: 0;
+        width: 342px;
+    }
+}
+@media(max-width:1920px) {
+    .client-testimonial {
+        position: relative;
+        height: 425px;
+    }
+    .transactions-box-area .transactions-box .sponsors-logo-box {
+       margin-top: 70px;
+    }
+    
+    .for-sponsors-box-area.for-consumer-business .side-deals-box .side-image img {
+        width: auto;
+        height: 730px;
+    }
+    .side-deals-box.consumer-business-box span {
+        position: absolute;
+        width: 351px;
+    }
+    .side-deals-box.consumer-business-box span.line1 {
+        top: 19.3%;
+        right: 0;
+    }
+    .side-deals-box.consumer-business-box span.line2 {
+        top: 44.5%;
+        right: -33px;
+        width: 351px;
+    }
+    .side-deals-box.consumer-business-box span.line3 {
+        top: 70%;
+        right: 0;
+        width: 355px;
+    }
+    .for-sponsors-box-area .side-deals-box .side-image img {
+        width: 100%;
+        height: auto;
+    }
+    .for-sponsors-box-area .side-deals-box .side-image {
+        margin-bottom: 21px;
+        height: 70%;
+    }
+}
+
+
 
 @media(max-width:1600px) {
 .container{ 
@@ -2413,7 +2413,8 @@ span.des {
         height: 240px;
     }
     .transactions-box-area .consumer-service-section {
-        padding: 26px;
+        padding: 10px;
+        
     }
     video.bg_vid {
         height: 100%;
