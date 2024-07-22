@@ -1565,14 +1565,14 @@ div#video-container {
     width: 550px;
 }
 .consumer-business-content-box ul li:nth-child(1) {
-    margin-left: -39px;
-    margin-top: 47px;
+    margin: 56px 0px 0px 118px;
+}
+.consumer-business-content-box ul li:nth-child(2) {
+    margin: 56px 0px 0px 118px;
 }
 
-
 .consumer-business-content-box ul li:nth-child(3) {
-    margin-left: -46px;
-    margin-top: 81px;
+    margin: 56px 0px 0px 118px;
 }
 
 .side-deals-box.consumer-business-content-box {
@@ -1946,6 +1946,3 @@ main.inner-page-main.height_f.contact-us-page {
     margin-top: 16px;
 }
 
-.consumer-business-content-box ul li:nth-child(2) {
-    margin: 56px 0px 0px 118px;
-}

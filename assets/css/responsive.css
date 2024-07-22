@@ -1623,10 +1623,10 @@ span.des {
         position: absolute;
         width: 155px;
     }
-    .consumer-business-content-box ul li:nth-child(1) {
+    /* .consumer-business-content-box ul li:nth-child(1) {
         margin-left: 0px;
         margin-top: 22px;
-    }
+    } */
     .consumer-business-content-box ul li {
         list-style: none;
         position: relative;
@@ -1634,15 +1634,15 @@ span.des {
         margin-top: 13%;
         width: 453px;
     }    
-    .consumer-business-content-box ul li:nth-child(2) {
+    /* .consumer-business-content-box ul li:nth-child(2) {
         margin: 31px 0px 0px 53px;
         width: 453px;
-    }
-    .consumer-business-content-box ul li:nth-child(3) {
+    } */
+    /* .consumer-business-content-box ul li:nth-child(3) {
         margin-left: 9px;
         margin-top: 24px;
-    }
-    .consumer-business-content-box ul li span {
+    } */
+    /* .consumer-business-content-box ul li span {
         position: absolute;
         top: 0;
         display: flex;
@@ -1660,7 +1660,7 @@ span.des {
         line-height: 24.11px;
         text-align: center;
         color: var(--colors-neutrals-5, #FAFAFA);
-    }
+    } */
     .for-sponsors-box-area .side-deals-box h4 {
         font-family: Nohemi;
         font-size: 16px;
@@ -1916,9 +1916,9 @@ span.des {
         border-radius: 16px;
         height: 580px;
     }
-    .consumer-business-content-box ul li:nth-child(2) {
+    /* .consumer-business-content-box ul li:nth-child(2) {
         margin: 0px;
-    }
+    } */
     .contact-box-area .details-box {
         background: var(--colors-neutrals-5, #FAFAFA);
         border-top: 1px solid var(--colors-neutrals-3, #C2BFBA);
@@ -2079,7 +2079,7 @@ span.des {
         margin-top: 22px;
         color: var(--colors-primary-0, #040A34);
     }
-    .consumer-business-content-box ul li::before {
+    /* .consumer-business-content-box ul li::before {
         content: '';
         position: absolute;
         top: 31px;
@@ -2087,8 +2087,8 @@ span.des {
         height: 100%;
         width: 2px;
         background: var(--colors-neutrals-2, rgba(134, 131, 126, 1));
-    }
-    .consumer-business-content-box ul li:nth-child(1) {
+    } */
+    /* .consumer-business-content-box ul li:nth-child(1) {
         width: 100%;
         margin-left: 0;
         text-align: left;
@@ -2106,13 +2106,13 @@ span.des {
         width: 100%;
         margin-left: 0;
         text-align: left;
-    }
+    } */
     .side-deals-box.consumer-business-box span {
         display: none;
     }
-    .consumer-business-content-box ul li:last-child::before {
+    /* .consumer-business-content-box ul li:last-child::before {
         background: none;
-    }
+    } */
     .for-sponsors-box-area.for-consumer-business .sponsors-bottom h4 {
         font-size: 28px;
         font-weight: 500;
