@@ -770,30 +770,33 @@ header.inner-header .get-in-touch-btn {
     border-right: 2px solid #C2BFBA;
 }
 
-.about-box-area .bottom-area .about-bottom-box .image {
+/* .about-box-area .bottom-area .about-bottom-box .image {
     display: inline-block;
     width: 192.32px;
     height: 209px;
     border: 1px solid var(--colors-neutrals-3, #C2BFBA);
     border-radius: 8px;
-}
+} */
 .about-bottom-box .image img {
     height: 209px;
     width: 192.32px;
     object-fit: cover;
     border-radius: 8px;
+    float: left;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 
 .about-box-area .bottom-area .detiels {
     display: block;
     height: fit-content;
     width: fit-content;
-    margin-left: 16px;
 }
 
-.top-about-box {
+/* .top-about-box {
     display: flex;
-}
+} */
 
 .about-box-area .bottom-area .about-bottom-box p {
     display: inline;

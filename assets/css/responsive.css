@@ -867,6 +867,8 @@
         margin-bottom: 16px;
     }
 } */
+
+
 @media(max-width:2560px) {
     .for-sponsors-box-area.for-consumer-business .side-deals-box .side-image img {
         width: auto;
@@ -890,10 +892,13 @@
         right: 0;
         width: 342px;
     }
+    .created-box {
+        height: 54%;
+    }
 }
 @media(min-width:1920px){
     .created-box {
-        height: 40%;
+        height: 42%;
     }
     .client-testimonial {
         position: relative;
@@ -1023,6 +1028,10 @@ span.des {
 
 
 @media(max-width:1536px) {
+    
+    .created-box {
+        height: 55%;
+    }
     .container{
         max-width: 1440px;
     }
@@ -1056,9 +1065,8 @@ span.des {
     .consumer-deals-box {
         height: 100%;
     }
-    .created-box {
-        height: 50%;
-    }
+    
+    
     .consumer-deals-box .usp-box {
         background: #000000CC;
         border-radius: 0;
