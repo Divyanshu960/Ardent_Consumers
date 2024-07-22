@@ -891,7 +891,10 @@
         width: 342px;
     }
 }
-@media(max-width:1920px) {
+@media(min-width:1920px){
+    .created-box {
+        height: 40%;
+    }
     .client-testimonial {
         position: relative;
         height: 425px;
@@ -1049,6 +1052,21 @@ span.des {
     }
     .transactions-box-area .consumer-service-section .service-box h4 {
         font-size: 20px;
+    }
+    .consumer-deals-box {
+        height: 100%;
+    }
+    .created-box {
+        height: 50%;
+    }
+    .consumer-deals-box .usp-box {
+        background: #000000CC;
+        border-radius: 0;
+        margin: 0;
+        flex-wrap: wrap;
+        align-items: center;
+        backdrop-filter: blur(7.5px);
+        height: 100%;
     }
 }
 

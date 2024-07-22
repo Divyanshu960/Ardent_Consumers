@@ -1098,16 +1098,20 @@ header.inner-header .get-in-touch-btn {
 
 
 
-
-
-
-
-
+.created-box{
+    height: 50%;
+    
+}
 .consumer-deals-box .usp-box {
     background: #000000CC;
     border-radius: 0;
     margin: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    backdrop-filter: blur(7.5px);
+    height: 100%;
 }
+
 .consumer-deals-box .usp-box .counter-box {
     width: 50%;
 }
@@ -1205,14 +1209,7 @@ header.inner-header .get-in-touch-btn {
     height: 100%;
 }
 
-.consumer-deals-box .usp-box {
-    background: #000000CC;
-    border-radius: 0;
-    margin: 0;
-    flex-wrap: wrap;
-    align-items: center;
-    backdrop-filter: blur(7.5px);
-}
+
 
 .botom-head {
     width: 100%;
