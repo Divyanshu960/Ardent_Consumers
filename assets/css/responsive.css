@@ -468,6 +468,15 @@ span.des {
     }
 }
 
+@media (max-width: 1180px) {
+    .consumer-deals-box {
+        height: 100%;
+    }
+    .created-box {
+        height: 60.69%;
+    }
+}
+
 @media(max-width:1024px) {
     #restro {
         margin-left: 10px;
@@ -919,6 +928,9 @@ span.des {
     .about-box-section {
         position: relative;
         padding-top: 142px;
+    }
+    .created-box {
+        height: 50%;
     }
 }
 
