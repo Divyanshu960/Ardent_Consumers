@@ -1350,8 +1350,8 @@ div#video-container {
     background: #B6CBF5; /*changed*/
 }
 .for-sponsors-box-area .side-deals-box .side-image {
-    margin-bottom: 21px;
-    /* height: 85%; */
+    /* margin-bottom: 21px;
+    height: 85%; */
 }
 
 .for-sponsors-box-area .side-deals-box .side-image img {
@@ -1494,10 +1494,10 @@ div#video-container {
     position: relative;
     padding-left: 54px;
     margin-top: 13%;
-    width: 700px;
+    
 }
 .for-sponsors-box-area.for-consumer-business .side-deals-box .side-image img {
-    width: 607px;
+    width: auto;
     height: auto;
 }
 .consumer-business-content-box ul li::after {
@@ -1533,10 +1533,14 @@ div#video-container {
 }
 
 .side-deals-box.consumer-business-box {
+    display: flex;
     border: none;
     position: relative;
     height: 100%;
-    padding: 48px 48px 48px 141px;
+    padding: 48px 48px 48px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }
 
 .side-deals-box.consumer-business-box span {
@@ -1565,14 +1569,14 @@ div#video-container {
     width: 550px;
 }
 .consumer-business-content-box ul li:nth-child(1) {
-    margin: 56px 0px 0px 118px;
+    margin: 56px 0px 0px 50px;
 }
 .consumer-business-content-box ul li:nth-child(2) {
-    margin: 56px 0px 0px 118px;
+    margin: 56px 0px 0px 50px;
 }
 
 .consumer-business-content-box ul li:nth-child(3) {
-    margin: 56px 0px 0px 118px;
+    margin: 56px 0px 0px 50px;
 }
 
 .side-deals-box.consumer-business-content-box {
