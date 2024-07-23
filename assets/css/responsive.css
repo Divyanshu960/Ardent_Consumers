@@ -68,6 +68,8 @@
     .for-sponsors-box-area .side-deals-box .side-image {
         margin-bottom: 0px;
         height: 70%;
+        margin-left:auto;
+        margin-right: auto;
     }
     #restro {
         margin-left: -35px;
@@ -474,6 +476,10 @@ span.des {
     }
     .created-box {
         height: 60.69%;
+    }
+    .for-sponsors-box-area.for-consumer-business .side-deals-box .side-image img {
+        width: 470px;
+        height: 470px;
     }
 }
 

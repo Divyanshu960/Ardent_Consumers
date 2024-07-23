@@ -1540,7 +1540,7 @@ div#video-container {
     padding: 48px 48px 48px;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .side-deals-box.consumer-business-box span {
