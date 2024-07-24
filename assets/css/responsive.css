@@ -487,6 +487,19 @@ span.des {
         justify-content: space-between;
         column-gap: 80px;
     }
+        
+    .transactions-box-area .consumer-service-section .service-box h4 {
+        font-size: 16px;
+    }
+    .transactions-box-area .consumer-service-section {
+        background: #000000CC;
+        column-gap: 5px;
+        backdrop-filter: blur(7.5px);
+        margin: 0;
+        padding: 48px;
+        border-top: 2px solid var(--colors-neutrals-3, #C2BFBA);
+    }
+
 }
 
 @media(max-width:1024px){
