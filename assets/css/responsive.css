@@ -489,7 +489,7 @@ span.des {
     }
 }
 
-@media(max-width:1024px) {
+@media(max-width:1024px){
     #restro {
         margin-left: 0px;
         margin-right: 0px;

@@ -1110,6 +1110,7 @@ header.inner-header .get-in-touch-btn {
     
 }
 .consumer-deals-box .usp-box {
+    white-space: nowrap;
     background: #000000CC;
     border-radius: 0;
     margin: 0;
