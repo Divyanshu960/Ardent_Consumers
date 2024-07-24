@@ -958,13 +958,14 @@ span.des {
         text-align: justify;
     }
     .home-main {
+        height: fit-content;
         overflow: visible;
-        height: 100vh;
+        /* height: 100vh; */
         /* height: 100%; */
     }
     section.hero_section {
         padding: 0px 0px;
-        height: 943px;
+        
     }
     /* section.hero_section .container-fluid,
     section.hero_section .row {
@@ -1128,10 +1129,6 @@ span.des {
         z-index: 999;
     }
 
-    .home-main{
-        overflow: visible;
-        
-    }
     .marquees {
         height: 100%;
         display: flex;
@@ -1566,16 +1563,22 @@ span.des {
     }
     
     .contact-box-area .details-box{
-        padding: 48px 32px;
+        padding: 28px 32px;
     }
     .consumer-deals-box .usp-box .counter-box {
-        width: 100%;
+        width: 55%;
+    }
+    .botom-head{
+        display:none;
     }
     .counter-box h2 {
         font-family: Nohemi;
-        font-size: 48.935px;
+        font-size: 28.935px;
         font-weight: 500;
         line-height: 65px;
+    }
+    .consumer-deals-box .counter-box:nth-child(1) {
+        padding-right: 0px;
     }
     .client-testimonial {
         position: static;
@@ -1734,8 +1737,10 @@ span.des {
     .home-main-box .consumer-service-section {
         display: flex;
         margin-top: 32px;
-        flex-wrap: wrap;
-        row-gap: 20px;
+        row-gap: 25px;
+        column-gap: 19px;
+        padding: 20px;
+
     }
     .bottom-area > p {
         font-size: 18px;
@@ -2019,6 +2024,10 @@ span.des {
         font-size: 22px;
         font-weight: 500;
         line-height: 29.6px;
+    }
+    .created-box{
+        height: 150px;
+        overflow:hidden;
     }
     .for-sponsors-box-area.for-consumer-business .side-deals-box {
         border-bottom: none;
