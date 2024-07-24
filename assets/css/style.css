@@ -608,6 +608,7 @@ iframe{
     margin-top: 55px;
 }
 .bottom-area > p {
+    padding-top: 12px;
     font-family: Nohemi;
     font-size: 18px;
     font-weight: 400;
@@ -1028,7 +1029,7 @@ header.inner-header .get-in-touch-btn {
 }
 .home-main-box .consumer-service-section {
     display: flex;
-    margin-top: 32px;
+    margin-top: 20px;
     flex-wrap: wrap;
     column-gap: 56px;
 }
@@ -1107,6 +1108,7 @@ header.inner-header .get-in-touch-btn {
 
 .created-box{
     height: 50%;
+    background: #fff;
     
 }
 .consumer-deals-box .usp-box {
@@ -1175,7 +1177,10 @@ header.inner-header .get-in-touch-btn {
     backdrop-filter: blur(7.5px);
     margin: 0;
     padding: 48px;
-    border-top: 2px solid var(--colors-neutrals-3, #C2BFBA);
+    border-top: 2px solid var(--colors-neutrals-3, #000000CC);
+    /* border-top: 2px solid var(--colors-neutrals-3, #C2BFBA); */
+    
+
 }
 .consumer-heading {
     width: 100%;
@@ -1215,6 +1220,8 @@ header.inner-header .get-in-touch-btn {
 
 .consumer-deals-box {
     height: 100%;
+    background: #000000CC;
+    backdrop-filter: blur(7.5px)
 }
 
 
