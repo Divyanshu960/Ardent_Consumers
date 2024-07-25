@@ -975,8 +975,7 @@ span.des {
     .home-main {
         height: fit-content;
         overflow: visible;
-        /* height: 100vh; */
-        /* height: 100%; */
+        
     }
     section.hero_section {
         padding: 0px 0px;
