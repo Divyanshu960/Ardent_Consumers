@@ -84,6 +84,11 @@
         margin-left: -35px;
         margin-right: 35px;
     }
+    #carwa0 {
+        margin-left: 30px;
+        /* margin-right: 35px; */
+    }
+
 }
 
 
@@ -1607,6 +1612,9 @@ span.des {
     }
     .transactions-box-area .consumer-service-section {
         padding: 20px;
+        display: flex;
+        justify-content: flex-start;
+        column-gap: 19px;
         
     }
     video.bg_vid {

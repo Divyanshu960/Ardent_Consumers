@@ -1033,7 +1033,8 @@ header.inner-header .get-in-touch-btn {
     display: flex;
     margin-top: 20px;
     flex-wrap: wrap;
-    column-gap: 56px;
+    column-gap: 50px;
+    padding-right:24px;
 }
 .home-main-box .service-box {
     max-width: 144px;
@@ -1045,7 +1046,7 @@ header.inner-header .get-in-touch-btn {
 
 .home-main-box .service-box h4 {
     font-family: Nohemi;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.02em;
