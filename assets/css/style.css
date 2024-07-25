@@ -289,7 +289,9 @@ span.des {
 
 
 .home-main {
-    position: relative;
+    height: 100%;
+    width: 100%;
+    position: absolute;
     background: linear-gradient(105.76deg, rgba(0, 5, 40, 0.8) 10%, rgba(21, 31, 109, 0.5) 70.5%, rgba(21, 31, 109, 0.6) 100%);
     overflow: hidden;
 }
