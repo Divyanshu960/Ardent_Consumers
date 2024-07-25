@@ -1024,8 +1024,6 @@ header.inner-header .get-in-touch-btn {
     box-shadow: 0 0 0px 1000px #00000099 inset !important; /* Ensure background color */
 }
 
-
-
 .sponsors-box-area .consumer-deals-box form {
     row-gap: 26px;
 }
@@ -1181,9 +1179,6 @@ header.inner-header .get-in-touch-btn {
     margin: 0;
     padding: 48px;
     border-top: 2px solid var(--colors-neutrals-3, #000000CC);
-    /* border-top: 2px solid var(--colors-neutrals-3, #C2BFBA); */
-    
-
 }
 .consumer-heading {
     width: 100%;
@@ -1304,16 +1299,6 @@ video#video {
     border: 0;
 }
 
-/* .video-wrapper {
-    height: 100%;
-    overflow: hidden;
-} */
-
-/* div#video-container {
-    height: 100%;
-    position: relative;
-} */
-
 .play-button-wrapper {
     position: absolute;
     top: 0;
@@ -1334,13 +1319,6 @@ video#video {
     height: 62px;
     fill: white;
 }
-
-
-
-
-
-
-
 
 .for-sponsors-box-area {
     border-radius: 16px;
@@ -1385,12 +1363,12 @@ video#video {
     background: #B6CBF5;
 }
 .for-sponsors-side-deals-main {
-    background: #B6CBF5; /*changed*/
+    background: #B6CBF5;
 }
-.for-sponsors-box-area .side-deals-box .side-image {
-    /* margin-bottom: 21px;
-    height: 85%; */
-}
+/* .for-sponsors-box-area .side-deals-box .side-image {
+    margin-bottom: 21px;
+    height: 85%; 
+} */
 
 .for-sponsors-box-area .side-deals-box .side-image img {
     width: 100%;
