@@ -25,6 +25,10 @@
     .created-box {
         height: 40%;
     }
+    #restro {
+        margin-left: -35px;
+        margin-right: 35px;
+    }
 }
 @media(max-width:1920px){
     .for-sponsors-box-area.for-consumer-business .side-deals-box .side-image img {
