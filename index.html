@@ -272,11 +272,25 @@
                                         <li class="marquee_logo">
                                             <img src="assets/image/marquee_logo5.png" alt="">
                                         </li>
+                                        <li class="marquee_logo">
+                                            <img src="assets/image/marquee_logo6.png" alt="">
+                                        </li>
+                                        <li class="marquee_logo">
+                                            <img src="assets/image/marquee_logo7.png" alt="">
+                                        </li>
+                                        <li class="marquee_logo">
+                                            <img src="assets/image/marquee_logo8.png" alt="">
+                                        </li>
+                                        <li class="marquee_logo">
+                                            <img src="assets/image/marquee_logo9.png" alt="">
+                                        </li>
+                                        <li class="marquee_logo">
+                                            <img src="assets/image/marquee_logo10.png" alt="">
+                                        </li>
                                     </ul>
                             </div>                        
 
                         </div>
-
 
                     </div>
 
@@ -297,33 +311,20 @@
    document.addEventListener('DOMContentLoaded', () => {
     let screenWidth = window.innerWidth;
     console.log(screenWidth);
+
+        const marqueeInner = document.getElementById('marquee_inner');
+        const originalContent = marqueeInner.innerHTML;
+        const clonedContent = originalContent;
+        // Append the cloned content to the marquee_inner div
+        const cloneDiv = document.createElement('ul');
+        cloneDiv.classList.add('marquee_inner_copy');
+        cloneDiv.innerHTML = clonedContent;
+        marqueeInner.appendChild(cloneDiv);
+    
         if (screenWidth > 768) {
-            
-            const marqueeInner = document.getElementById('marquee_inner');
-            const originalContent = marqueeInner.innerHTML;
-            const clonedContent = originalContent;
-
-            // Append the cloned content to the marquee_inner div
-            const cloneDiv = document.createElement('ul');
-            cloneDiv.classList.add('marquee_inner_copy');
-            cloneDiv.innerHTML = clonedContent;
-            marqueeInner.appendChild(cloneDiv);
-
-            // Apply the animation
-            marqueeInner.style.animation = 'marquee 10s linear infinite';
-        }else{
-            const marqueeInner = document.getElementById('marquee_inner');
-            const originalContent = marqueeInner.innerHTML;
-            const clonedContent = originalContent;
-
-            // Append the cloned content to the marquee_inner div
-            const cloneDiv = document.createElement('ul');
-            cloneDiv.classList.add('marquee_inner_copy');
-            cloneDiv.innerHTML = clonedContent;
-            marqueeInner.appendChild(cloneDiv);
-
-            // Apply the animation
             marqueeInner.style.animation = 'marquee 18s linear infinite';
+        }else{
+            marqueeInner.style.animation = 'marquee 32s linear infinite';
         }
         });
 </script>

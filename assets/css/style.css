@@ -130,28 +130,9 @@ section.hero_section {
     padding: 48px 0px 50px;
 }
 
-/* .marquee {
-    top: 6em;
-    position: relative;
-    box-sizing: border-box;
-    animation: marquee 15s linear infinite forwards;
-    /* animation: name duration timing-function delay iteration-count direction forwards; 
-} */
 
-/* .marquee:hover {
-    animation-play-state: paused;
-} */
 
-/* Make it move! */
-@keyframes marquee {
-    0%   { top:   8em }
-    100% { top: -11em }
-}
 
-/* Make it look pretty */
-.microsoft .marquee {
-	margin: 0;
-}
 
 .microsoft:before, .microsoft::before,
 .microsoft:after,  .microsoft::after {
@@ -185,9 +166,7 @@ section.hero_section {
     border-top: none;
     border-bottom: none;
 }
-.marquee_logo {
-    margin-bottom: 2rem;
-}
+
 .usp_heading {
     color: var(--Primary-white, #F0EEE9);
     text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
@@ -580,9 +559,7 @@ iframe{
     border-top: none;
     border-bottom: none;
 }
-.sidebar marquee {
-    height: 100%;
-}
+
 
 .sidebar ul {
     padding: 0px 30px;
@@ -1474,7 +1451,21 @@ video#video {
 }
 
 
-
+.sidebar marquee {
+    height: 100%;
+}
+/* Make it move! */
+@keyframes marquee {
+    0%   { top:   8em }
+    100% { top: -11em }
+}
+/* Make it look pretty */
+.microsoft .marquee {
+	margin: 0;
+}
+.marquee_logo {
+    margin-bottom: 2rem;
+}
 
 
 .marquees {
@@ -1504,6 +1495,22 @@ video#video {
 .marquees li img {
     max-width: 100%;
 }
+.marquee {
+    overflow: hidden;
+}
+.marquee_inner {
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateY(0); 
+    }
+    100% { 
+        transform: translateY(-50%); 
+    }
+}
+
 
 .consumer-business-content-box ul li {
     list-style: none;
@@ -1868,17 +1875,6 @@ header .menu ul li.dropdown > ul li a{
 
 
 
-.marquee {
-    overflow: hidden;
-}
-.marquee_inner {
-    animation: marquee 10s linear infinite;
-}
-
-@keyframes marquee {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-20%); }
-}
 
 .collapse:not(.show) {
     display: block !important;
