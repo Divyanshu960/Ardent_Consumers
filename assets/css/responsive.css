@@ -27,6 +27,12 @@
         margin-left: -35px;
         margin-right: 35px;
     }
+    .for-sponsors-box-area .side-deals-box .side-image {
+        margin-bottom: 0px;
+        height: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 @media(max-width:1920px){
     .for-sponsors-box-area.for-consumer-business .side-deals-box .side-image img {

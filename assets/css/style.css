@@ -1353,7 +1353,9 @@ video#video {
     display: table;
 }
 
-
+.side-deals-box .consumer-business-box .side-image{
+    margin:auto;
+}
 .for-sponsors-box-area .side-deals-box h3 {
     font-family: Nohemi;
     font-size: 32px;
