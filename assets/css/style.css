@@ -1334,9 +1334,14 @@ video#video {
 
 .for-sponsors-box-area .side-deals-box {
     border-right: 2px solid var(--colors-neutrals-3, #C2BFBA);
-    padding: 48px;
+    padding-top: 48px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 0px;
     height: 100%;
     background: #B6CBF5;
+    display: flex;
+    flex-wrap: wrap;
 }
 .for-sponsors-side-deals-main {
     background: #B6CBF5;
@@ -1431,6 +1436,7 @@ video#video {
 }
 
 .side-deals-box.buy-side::after {
+    transform: scale(0.8);
     position: absolute;
     right: -56px;
     top: 50%;
