@@ -189,7 +189,6 @@ section.hero_section {
     backdrop-filter: blur(40px);
     width: fit-content;
     gap: 79px;
-    margin-top: 48px;
 }
 span.amt_hd {
     color: var(--Off-white, #FAFAFA);
@@ -1085,7 +1084,7 @@ header.inner-header .get-in-touch-btn {
 
 
 .created-box{
-    height: 50%;
+    
     background: #fff;
     
 }
@@ -1499,7 +1498,7 @@ video#video {
     overflow: hidden;
 }
 .marquee_inner {
-    animation: marquee 10s linear infinite;
+    animation: marquee 18s linear infinite;
 }
 
 @keyframes marquee {

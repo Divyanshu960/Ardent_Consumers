@@ -22,9 +22,7 @@
         right: 0;
         width: 342px;
     }
-    .created-box {
-        height: 40%;
-    }
+    
     #restro {
         margin-left: -35px;
         margin-right: 35px;
@@ -127,9 +125,7 @@ section.hero_section {
 .hero_heading {
     margin-top: 32px;
 }
-.usp_box {
-    margin-top: 30px;
-}
+
 span.amt_hd {
     font-size: 58px;
 }
@@ -319,7 +315,7 @@ span.des {
         font-size: 25px;
     }
     .usp_box {
-        margin-top: 25px;
+        
         padding: 30px 35px;
     }
     .bottom-area > p {
@@ -411,18 +407,9 @@ span.des {
         height: 100px;
     }
     .usp_box {
-        margin-top: 40px;
         padding: 30px 35px;
     }
 
-    .usp_box {
-        margin-top: 40px;
-        padding: 30px 35px;
-    }
-    .usp_box {
-        margin-top: 40px;
-        padding: 30px 35px;
-    }
     video.bg_vid {
         width: auto;
         height: 100%;
@@ -2118,7 +2105,7 @@ span.des {
         width: fit-content;
         gap: 15px;
         margin: auto;
-        margin-top: 40px;
+        
     }
     .about-box-area .bottom-area .about-bottom-box .about-bottom-box:nth-child(2) {
         border-bottom: none;
