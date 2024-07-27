@@ -23,15 +23,15 @@
         width: 342px;
     }
     
-    #restro {
-        margin-left: -35px;
-        margin-right: 35px;
-    }
+    
     .for-sponsors-box-area .side-deals-box .side-image {
         margin-bottom: 0px;
         height: 70%;
         margin-left: auto;
         margin-right: auto;
+    }
+    #restro {
+        margin-right:35px;
     }
 }
 @media(max-width:1920px){
@@ -81,7 +81,7 @@
     }
     #restro {
         margin-left: -35px;
-        margin-right: 35px;
+        /* margin-right: 35px; */
     }
     #carwa
     {
@@ -506,8 +506,8 @@ span.des {
 
 @media(max-width:1024px){
     #restro {
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: -10px;
+        margin-right: 15px;
     }
     
     section.hero_section {
@@ -2134,7 +2134,7 @@ span.des {
     }
     
     @keyframes marquee {
-        0% { transform: translateX(0); }
+        0% { transform: translateX(10px); }
         100% { transform: translateX(-100%); }
     }
     .microsoft {
@@ -2271,6 +2271,7 @@ span.des {
     }
     #restro {
         margin-right:25px;
+        margin-left:0px;
     }
     #carwa {
         margin-left:0px;

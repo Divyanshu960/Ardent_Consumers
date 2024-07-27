@@ -1925,10 +1925,7 @@ header .menu ul li.dropdown > ul li a{
     outline: 0;
     box-shadow: none !important;
 }
-.iti__flag-container{
-    right: 0 !important;
 
-}
 
 .iti__country-list {
     position: absolute;
@@ -1975,3 +1972,20 @@ main.inner-page-main.height_f.contact-us-page {
     margin-top: 16px;
 }
 
+/* Phone number in sponsors page*/
+  .iti__flag-container {
+    position: static !important;
+  
+  }
+  
+  .iti__selected-flag {
+    position: absolute !important;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+  }
+  
+  .iti__country-list {
+    width: 100%;
+    top: 100%;
+  }
