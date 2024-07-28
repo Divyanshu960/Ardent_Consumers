@@ -1342,7 +1342,7 @@ span.des {
         width: 120px;
     }
     .marquee_logo {
-        margin-right: 2rem;
+        margin-right: 0rem;
         margin-bottom: 0;
     }
     .marquee_inner {
@@ -1351,7 +1351,7 @@ span.des {
     
     @keyframes marquee {
         0% { transform: translateX(0); }
-        100% { transform: translateX(-20%); }
+        100% { transform: translateX(-50%); }
     }
     .logo_head {
         margin-top: 33px;
@@ -2126,7 +2126,7 @@ span.des {
         padding: 0px 0px;
     }
     .marquee_logo {
-        margin-right: 2rem;
+        margin-right: 0rem;
         margin-bottom: 0;
     }
     .marquee_inner {
@@ -2135,7 +2135,7 @@ span.des {
     
     @keyframes marquee {
         0% { transform: translateX(10px); }
-        100% { transform: translateX(-100%); }
+        100% { transform: translateX(-50%); }
     }
     .microsoft {
         height: 200px;
