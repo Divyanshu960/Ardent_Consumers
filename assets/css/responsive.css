@@ -257,10 +257,10 @@ span.des {
 
 
 @media(max-width:1440px) {
-    #restro {
+    /* #restro {
     margin-left: -10px;
     margin-right: 10px;
-}
+} */
     .created-box {
         height: 48%;
     }

@@ -162,7 +162,7 @@ section.hero_section {
     overflow: hidden;
     position: relative;
     text-align: center;
-    height: 87.7vh;
+    height: 90vh;
     border-top: none;
     border-bottom: none;
 }
@@ -171,7 +171,7 @@ section.hero_section {
     color: var(--Primary-white, #F0EEE9);
     text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
     font-family: Nohemi;
-    font-size: 32px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 500;
     line-height: inherit;
@@ -653,6 +653,8 @@ header.inner-header .get-in-touch-btn {
 
 .inner-banner {
     padding: 48px 60px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 .about-box-area {
@@ -1949,7 +1951,7 @@ header .menu ul li.dropdown > ul li a{
     scrollbar-color:var(--colors-neutrals-2, #86837E) transparent; 
 }
 main.inner-page-main.height_f.contact-us-page .inner-banner {
-    padding: 93px 60px;
+    padding: 5vh 5vh;
 }
 .iti__country {
     padding: 12px 8px !important;
@@ -1959,7 +1961,7 @@ span.iti__country-name {
     color: white !important;
 }
 main.inner-page-main.height_f.contact-us-page {
-    height: 100vh;
+    height: fit-content;
 }
 .service-box .image img {
     height: 90px;
