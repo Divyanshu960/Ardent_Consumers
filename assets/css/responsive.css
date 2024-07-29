@@ -1239,7 +1239,7 @@ span.des {
         width: 71%;
         height: auto;
         margin: auto;
-        display: table;
+        /* display: table; */
     }
 
     .for-sponsors-box-area .for-sponsors-box p {
@@ -1503,6 +1503,13 @@ span.des {
 }
 
 @media(max-width:480px) and (min-width:320px){
+    .desktop-image {
+        display: none;
+    }
+    .mobile-image {
+        display: block;
+    }
+
     .for-sponsors-box-area.for-consumer-business .side-deals-box .side-image img{
         height:auto;
         width:100%;
@@ -2288,4 +2295,9 @@ span.des {
     #carwa {
         margin-left:0px;
     }
+    #carwa0 {
+        margin-left: 0px;
+        margin-right:25px;
+    }
+
 }
