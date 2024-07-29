@@ -165,7 +165,7 @@ span.des {
     letter-spacing: 0.02em;
     text-align: left;
     color: white;
-    margin-left: -18px;
+    margin-left: -45px;
     margin-bottom: 0;
 }
 
@@ -340,14 +340,22 @@ span.des {
     span.des {
         font-size: 47px;
     }
-    .home-main-box .consumer-service-section {
-        column-gap: 20px;
+    #restro{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #carwa0{
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .home-main-box .consumer-service-section {
         margin-top: 25px;
+        column-gap: 130px;
+
     }
     .home-main-box .service-box {
         max-width: 110px;
+        column-gap: 26px;
     }
     .client-testimonial .client-content {
         position: absolute;
@@ -481,6 +489,14 @@ span.des {
 }
 
 @media (max-width: 1180px) {
+    #carwa0 {
+        margin-left: 0px;
+        /* margin-right: 35px; */
+    }
+    .home-main-box .service-box{
+        max-width: 80px;
+        transform: scale(0.8) ;
+    }
     .consumer-deals-box {
         height: 100%;
     }
@@ -494,8 +510,8 @@ span.des {
     .home-main-box .consumer-service-section {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        column-gap: 80px;
+        
+        column-gap: 44px;
     }
         
     .transactions-box-area .consumer-service-section .service-box h4 {
@@ -522,7 +538,8 @@ span.des {
         padding: 0px 21px;
     }
     .home-main-box .consumer-service-section {
-        column-gap: 8px;
+        column-gap: 0px;
+        padding-right: 0px;
     }
     .home-main-box .service-box .image img {
         height: 55px;
@@ -532,7 +549,7 @@ span.des {
     }
     .home-main-box .service-box {
         max-width: 130px;
-        width: min-content;
+        /* width: min-content; */
     }
     video.bg_vid {
         width: auto;
@@ -2267,7 +2284,10 @@ span.des {
         margin-top: 3px;
         color: var(--colors-primary-1, #0A124E);
     }
-    
+    .home-main-box .service-box {
+        max-width: 130px;
+        /* width: min-content; */
+    }
     
     .consumer-business-content-box ul li:nth-child(1) {
         margin-left: 0;
