@@ -1790,10 +1790,11 @@ span.des {
         padding: 0px 16px;
     }
     .home-main-box .consumer-service-section {
+        justify-content: space-between;
         display: flex;
         margin-top: 32px;
         row-gap: 25px;
-        column-gap: 19px;
+        /* column-gap: 0px; */
         padding: 20px;
 
     }
