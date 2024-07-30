@@ -863,7 +863,7 @@ span.des {
         color: var(--colors-neutrals-5, #FAFAFA);
     }
     main.inner-page-main.height_f.contact-us-page .inner-banner {
-        padding: 50px 43px;
+        padding: 30px 43px;
     }
     .contact-box-area {
         border: 2px solid #C2BFBA80;
@@ -1589,7 +1589,7 @@ span.des {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100%;
+        height: 60vh;
         width: 100%;
         padding: 145px 24px;
     }
@@ -2272,7 +2272,7 @@ span.des {
     .contact-box-area .get-in-touch-box .get-in-touch-content .mail-contact {
         background: var(--colors-neutrals-5, #FAFAFA);
         display: block;
-        width: max-content;
+        width: 80vw;
         font-family: Nohemi;
         font-size: 18px;
         font-weight: 500;

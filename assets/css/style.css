@@ -784,11 +784,12 @@ header.inner-header .get-in-touch-btn {
 } */
 
 .about-box-area .bottom-area .about-bottom-box p {
-    display: inline;
+    /* display: inline; */
     font-size: 18px;
     line-height: 24px;
     font-family: "Acumin Variable Concept";
     font-weight: 500;
+    text-align: left;
 }
 .about-bottom-box .detiels h4 {
     font-family: Nohemi;
@@ -1341,17 +1342,13 @@ video#video {
     padding-right: 48px;
     padding-bottom: 0px;
     height: 100%;
-    background: #B6CBF5;
+    background: #e7e7e7;
     display: flex;
     flex-wrap: wrap;
 }
 .for-sponsors-side-deals-main {
-    background: #B6CBF5;
+    background: #e7e7e7;
 }
-/* .for-sponsors-box-area .side-deals-box .side-image {
-    margin-bottom: 21px;
-    height: 85%; 
-} */
 
 .for-sponsors-box-area .side-deals-box .side-image img {
     width: 100%;
