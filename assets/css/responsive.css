@@ -354,7 +354,7 @@ span.des {
     }
     .home-main-box .consumer-service-section {
         margin-top: 25px;
-        column-gap: 130px;
+        
 
     }
     .home-main-box .service-box {
@@ -402,8 +402,12 @@ span.des {
         height: 50%;
     }
     #restro {
-        margin-left: -27px;
-        margin-right: 37px;
+        margin-left: -10px;
+        margin-right: 40px;
+    }
+    #carwa0 {
+        margin-left: 12px;
+        margin-right: -12px;
     }
 }
 @media only screen and (min-width: 1280px) and (min-height: 1024px) and (max-width: 1280px) and (max-height: 1024px) {
@@ -992,7 +996,7 @@ span.des {
     }
     #carwa0 {
         margin-left: 0px;
-        margin-right: 35px;
+        margin-right: 0px;
     }
 }
 
