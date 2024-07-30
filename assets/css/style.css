@@ -648,19 +648,14 @@ header.inner-header .get-in-touch-btn {
 }
 
 
+
+
+
 .inner-banner {
-    padding-right: 2vw;
-    padding-left: 2vw;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-}
-
-
-/* .inner-banner {
     padding: 48px 60px;
     padding-top: 5vh;
     padding-bottom: 5vh;
-} */
+}
 
 .about-box-area {
     border: 2px solid #C2BFBA80;
@@ -673,13 +668,13 @@ header.inner-header .get-in-touch-btn {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 24px 48px;
+    padding: 48px;
     background: #040A34E5;
 }
 
 .about-box-area .top-area .different-area {
     display: flex;
-    margin-top: 16px;
+    margin-top: 48px;
     column-gap: 35px;
 }
 
@@ -790,8 +785,8 @@ header.inner-header .get-in-touch-btn {
 
 .about-box-area .bottom-area .about-bottom-box p {
     /* display: inline; */
-    font-size: 17px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 24px;
     font-family: "Acumin Variable Concept";
     font-weight: 500;
     text-align: left;
@@ -1313,7 +1308,7 @@ video#video {
 .for-sponsors-box-area .for-sponsors-box {
     background: #040A34CC;
     border-bottom: 2px solid var(--colors-neutrals-3, #C2BFBA);
-    padding: 24px;
+    padding: 48px;
     backdrop-filter: blur(7.5px);
 }
 
@@ -1328,13 +1323,13 @@ video#video {
 
 .for-sponsors-box-area .for-sponsors-box p {
     font-family: Nohemi;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     font-style: normal;
-    line-height: 17px;
+    line-height: 26px;
     text-align: center;
     color: var(--colors-neutrals-5, #FAFAFA);
-    margin-top: 10px;
+    margin-top: 32px;
     letter-spacing: 0.4px;
     margin-bottom: 0;
     padding: 0px 100px;
@@ -1350,14 +1345,13 @@ video#video {
     background: #e7e7e7;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
 }
 .for-sponsors-side-deals-main {
     background: #e7e7e7;
 }
 
 .for-sponsors-box-area .side-deals-box .side-image img {
-    width: 70%;
+    width: 100%;
     height: auto;
     margin: auto;
     
@@ -1397,7 +1391,7 @@ video#video {
 .for-sponsors-box-area .sponsors-bottom {
     border-top: 2px solid var(--colors-neutrals-3, #C2BFBA);
     background: var(--colors-neutrals-5, #FAFAFA);
-    padding: 6px 0px;
+    padding: 48px 0px;
 }
 
 .for-sponsors-box-area .sponsors-bottom h3 {
@@ -1433,7 +1427,7 @@ video#video {
 
 
 .for-sponsors-box-area .sponsors-bottom marquee {
-    margin-top: 0px;
+    margin-top: 48px;
 }
 
 .side-deals-box.buy-side {
@@ -1531,7 +1525,10 @@ video#video {
     margin-top: 13%;
     
 }
-
+.for-sponsors-box-area.for-consumer-business .side-deals-box .side-image img {
+    width: auto;
+    height: auto;
+}
 .consumer-business-content-box ul li::after {
     /* content: ''; */
     position: absolute;
@@ -1601,14 +1598,14 @@ video#video {
     width: 550px;
 }
 .consumer-business-content-box ul li:nth-child(1) {
-    margin: 20px 0px 0px 50px;
+    margin: 56px 0px 0px 50px;
 }
 .consumer-business-content-box ul li:nth-child(2) {
-    margin: 20px 0px 0px 50px;
+    margin: 56px 0px 0px 50px;
 }
 
 .consumer-business-content-box ul li:nth-child(3) {
-    margin: 20px 0px 0px 50px;
+    margin: 56px 0px 0px 50px;
 }
 
 .side-deals-box.consumer-business-content-box {
@@ -1882,18 +1879,7 @@ header .menu ul li.dropdown > ul li a{
     color: var(--Primary-Blue-1, #151F6D);
 }
 
-#fcLeft, #fcRight {
-    max-height: fit-content; /* Adjust this value as needed */
-    overflow: hidden; /* Prevent content from overflowing */
-}
 
-
-
-
-.sponsors-bottom {
-    margin-top: 0px; /* Adjust the margin to ensure the marquee is visible */
-    padding: 10px 0; /* Add some padding for better visibility */
-}
 
 
 
@@ -1962,7 +1948,7 @@ header .menu ul li.dropdown > ul li a{
     scrollbar-color:var(--colors-neutrals-2, #86837E) transparent; 
 }
 main.inner-page-main.height_f.contact-us-page .inner-banner {
-    padding: 2vh 2vw;
+    padding: 5vh 5vh;
 }
 .iti__country {
     padding: 12px 8px !important;
