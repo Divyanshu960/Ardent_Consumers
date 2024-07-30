@@ -22,7 +22,9 @@
         right: 0;
         width: 342px;
     }
-    
+    #fcLeft, #fcRight{
+        max-height: 524px;
+    }
     
     .for-sponsors-box-area .side-deals-box .side-image {
         margin-bottom: 0px;
@@ -49,7 +51,14 @@
     .transactions-box-area .transactions-box .sponsors-logo-box {
        margin-top: 70px;
     }
+    .for-sponsors-box-area .side-deals-box{
     
+    padding-top: 0px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 0px;
+    
+    }
     
     .side-deals-box.consumer-business-box span {
         position: absolute;
@@ -69,13 +78,10 @@
         right: 0;
         width: 355px;
     } */
-    .for-sponsors-box-area .side-deals-box .side-image img {
-        width: 100%;
-        height: auto;
-    }
+    
     .for-sponsors-box-area .side-deals-box .side-image {
         margin-bottom: 0px;
-        height: 50%;
+        height: 70%;
         margin-left:auto;
         margin-right: auto;
     }
@@ -401,8 +407,12 @@ span.des {
         margin-left: -27px;
         margin-right: 37px;
     }
+    #fcLeft, #fcRight{
+        max-height: fit-content;
+    }
 }
 @media only screen and (min-width: 1280px) and (min-height: 1024px) and (max-width: 1280px) and (max-height: 1024px) {
+
     .created-box {
         height: 58%;
     }
@@ -562,7 +572,7 @@ span.des {
         height: 65px;
     }
     header .menu ul li {
-        padding: 0px 13px;
+        padding: 0px 9px;
     }
     .btn_content {
         font-size: 17px;
@@ -1253,7 +1263,7 @@ span.des {
         line-height: 33.6px;
     }
     .for-sponsors-box-area .side-deals-box .side-image img {
-        width: 71%;
+        width: 70%;
         height: auto;
         margin: auto;
         /* display: table; */
@@ -1516,6 +1526,7 @@ span.des {
         margin-left: 0;
         margin-top:20px;
     }
+    
     
 }
 
