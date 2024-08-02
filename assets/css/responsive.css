@@ -2195,6 +2195,7 @@ span.des {
     }
     .about-box-area .bottom-area .about-bottom-box .about-bottom-box:nth-child(2) {
         border-bottom: none;
+        width: 100%;
     }
     .box_cont {
         text-align: center;
