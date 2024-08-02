@@ -1823,7 +1823,7 @@ header .menu ul li.dropdown > ul li a{
 }
 
 .about-box-area .bottom-area .about-bottom-box .about-bottom-box {
-    width: 50%;
+    width: 46%;
     padding-bottom: 0;
 }
 
@@ -1835,6 +1835,7 @@ header .menu ul li.dropdown > ul li a{
 .about-box-area .bottom-area .about-bottom-box .about-bottom-box:nth-child(2) {
     border-bottom: none;
     border-right: none;
+    width:54%;
 }
 
 .the-team {
