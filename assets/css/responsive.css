@@ -97,7 +97,15 @@
 
 
 
-@media(max-width:1600px) {
+@media(max-width:1600px) 
+{   
+    
+
+    .side-deals-box.consumer-business-content-box{
+    height: 100%;
+    overflow: hidden;
+    padding: 48px 48px 48px 48px;
+    }
     .for-sponsors-box-area.for-consumer-business .side-deals-box .side-image img {
         width: auto;
         height: 90%;
@@ -157,17 +165,7 @@ span.des {
     height: 100%;
     backdrop-filter: blur(7.5px);
 }
-.home-main-box .service-box h4 {
-    font-family: Nohemi;
-    font-size: 22px;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: white;
-    margin-left: -45px;
-    margin-bottom: 0;
-}
+
 
 .transactions-box-area .consumer-service-section .service-box {
     max-width: 144px;
@@ -279,6 +277,7 @@ span.des {
     }
     .home-main-box .service-box h4 {
         font-size: 20px;
+        margin-left: -50px;
     }
     .transactions-box-area .transactions-box h2 {
         font-size: 40px;
@@ -346,15 +345,15 @@ span.des {
     }
     #restro{
         margin-left: 0px;
-        margin-right: 0px;
+        margin-right: 30px;
     }
     #carwa0{
-        margin-left: 0px;
+        /* margin-left: 0px; */
         margin-right: 0px;
     }
     .home-main-box .consumer-service-section {
         margin-top: 25px;
-        
+        margin-bottom: 15px;
 
     }
     .home-main-box .service-box {
@@ -398,6 +397,10 @@ span.des {
     }
 }
 @media (max-width:1280px) {
+    .home-main-box .service-box h4{
+        font-size: 16px;
+        margin-left: -45px;
+    }
     .created-box {
         height: 50%;
     }
@@ -497,9 +500,13 @@ span.des {
 }
 
 @media (max-width: 1180px) {
+    #restro {
+        margin-left: -10px;
+        margin-right: 20px;
+    }
     #carwa0 {
-        margin-left: 0px;
-        /* margin-right: 35px; */
+        margin-left: 15px;
+        margin-right: -5px;
     }
     .home-main-box .service-box{
         max-width: 80px;
@@ -1008,9 +1015,7 @@ span.des {
         line-height: normal;
         margin-right: 6px;
     }
-    .about-box-area .bottom-area .about-bottom-box p{
-        text-align: justify;
-    }
+    
     .home-main {
         height: fit-content;
         overflow: visible;
