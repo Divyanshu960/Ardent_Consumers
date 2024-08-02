@@ -1686,7 +1686,11 @@ span.des {
         
     }
     video.bg_vid {
+        min-width: 100vw;
+        min-height: 100vh;
+        width: auto;
         height: 100%;
+        position: fixed;
     }
     .hero_section_logo {
         height: 76.02px;
