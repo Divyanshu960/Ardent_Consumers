@@ -204,7 +204,9 @@ span.des {
 
 
 @media(max-width:1536px) {
-    
+    .about-bottom-box .detiels h4{
+        max-width: 335px;
+    }
     .created-box {
         height: 55%;
     }
@@ -311,6 +313,9 @@ span.des {
 
 
 @media(max-width:1366px) {
+    .about-bottom-box .detiels h4{
+        max-width: 300px;
+    }
     .created-box {
     height: 49%;
     }
