@@ -614,21 +614,21 @@ iframe{
 }
 
 .service-box {
-    max-width: 248px;
+    max-width: 192px;
     border-left: 2px solid #FFFFFF80;
     display: flex;
     align-items: center;
 }
 
-.service-box h4 {
+.consumer-service-section .service-box h4 {
     font-family: Nohemi;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.02em;
     text-align: left;
     color: white;
-    margin-left: 0px;
+    margin-left: -18px;
     margin-bottom: 0;
 }
 
@@ -1169,7 +1169,7 @@ header.inner-header .get-in-touch-btn {
     backdrop-filter: blur(7.5px);
     margin: 0;
     padding: 48px;
-    border-top: 2px solid var(--colors-neutrals-3, #000000CC);
+    /* border-top: 2px solid var(--colors-neutrals-3, #000000CC); */
 }
 .consumer-heading {
     width: 100%;
