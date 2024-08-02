@@ -8,16 +8,8 @@
     src: url('../font/Acumin Variable Concept.ttf');
 }
 .highlight0 {
-    color: #6490E8; /* Change the color as desired */
+    color: #6C78D3; /* Change the color as desired */
     font-size: 1.5em; /* Adjust the size as needed */
-}
-.highlight1 {
-    color: #0A124E; /* Change the color as desired */
-    font-size: 1.5em; /* Adjust the size as needed */
-}
-.highlight2{
-    color:#363432;
-    font-size: 1.5em;
 }
 
 
@@ -1561,7 +1553,10 @@ video#video {
         transform: translateY(24px); 
     }
 }
+.for-sponsors-box-area .side-deals-box h4{
 
+    color:#040A34;
+}
 
 .consumer-business-content-box ul li {
     list-style: none;
@@ -1587,6 +1582,7 @@ video#video {
 }
 
 .numbersc {
+    padding: 8px 0px 0px 0px;
     position: absolute;
     top: 0;
     display: flex;
@@ -1596,7 +1592,7 @@ video#video {
     height: 40px;
     width: 40px;
     background: var(--colors-primary-0, #040A34);
-    border-radius: 50%;
+    border-radius: 69px;
     font-family: Nohemi;
     font-size: 24px;
     font-weight: 500;
