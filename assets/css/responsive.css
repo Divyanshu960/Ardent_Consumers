@@ -667,7 +667,7 @@ span.des {
     .transactions-box-area .consumer-service-section {
         padding: 30px;
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
     .consumer-heading p {
         font-size: 16px;
@@ -1569,6 +1569,14 @@ span.des {
     .consumer-business-content-box ul li:nth-child(3) {
         margin-left: 0;
         margin-top:20px;
+    }
+    #carwa {
+        margin-left:0px;
+        margin-right:0px;
+    }
+    #restro {
+        margin-left: 0px;
+        margin-right: 0px;
     }
     
 }
