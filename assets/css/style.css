@@ -225,7 +225,7 @@ section.hero_section {
     background: rgba(255, 255, 255, 0.10);
     backdrop-filter: blur(40px);
     width: fit-content;
-    gap: 79px;
+    gap: 70px;
 }
 span.amt_hd {
     color: var(--Off-white, #FAFAFA);
@@ -1047,7 +1047,7 @@ header.inner-header .get-in-touch-btn {
     display: flex;
     margin-top: 20px;
     flex-wrap: wrap;
-    column-gap: 50px;
+    column-gap: 20px;
     padding-right:24px;
 }
 .home-main-box .service-box {
@@ -2003,7 +2003,7 @@ main.inner-page-main.height_f.contact-us-page {
     height: fit-content;
 }
 .service-box .image img {
-    height: 90px;
+    height: 80px;
     width: auto;
 }
 .for-sponsors-side-deals-main .row {

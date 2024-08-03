@@ -161,7 +161,7 @@ span.des {
     align-items: center;
 }
 .home-main-box .service-box .image img {
-    height: 70px;
+    height: 60px;
 }
 .transactions-box-area .transactions-box {
     padding-top: 48px;
@@ -261,6 +261,9 @@ span.des {
         column-gap: 20px;
         
     }
+    .home-main-box .service-box h4{
+        font-size:20px;
+    }
 }
 
 
@@ -286,8 +289,9 @@ span.des {
         max-width: 144px;
     }
     .home-main-box .service-box h4 {
-        font-size: 20px;
-        margin-left: -50px;
+        font-size: 18px;
+        margin-left: -36px;
+
     }
     .transactions-box-area .transactions-box h2 {
         font-size: 40px;
@@ -308,6 +312,9 @@ span.des {
     }
     .transactions-box-area .consumer-service-section .service-box h4 {
         font-size: 19px;
+    }
+    .home-main-box .consumer-service-section{
+        padding-right:10px;
     }
 }
 
@@ -450,7 +457,7 @@ span.des {
         font-size: 18px;
     }
     .home-main-box .service-box .image img {
-        height: 60px;
+        height: 50px;
     }
     .hero_heading {
         margin-top: 44px;
@@ -499,7 +506,7 @@ span.des {
         font-size: 18px;
     }
     .home-main-box .service-box .image img {
-        height: 65px;
+        height: 45px;
     }
     .transactions-box-area .transactions-box h2 {
         font-size: 36px;
@@ -552,7 +559,7 @@ span.des {
         display: flex;
         flex-wrap: wrap;
         
-        column-gap: 44px;
+        column-gap: 20px;
     }
         
     .transactions-box-area .consumer-service-section .service-box h4 {
@@ -583,7 +590,7 @@ span.des {
         padding-right: 0px;
     }
     .home-main-box .service-box .image img {
-        height: 55px;
+        height: 45px;
     }
     .home-main-box .service-box h4 {
         font-size: 16px;
