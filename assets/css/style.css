@@ -138,7 +138,9 @@ body {
     overflow: hidden;
     z-index: -1;
 }
-
+#restra{
+    margin-left:-14px;
+}
 .bg_vid {
     position: absolute;
     top: 50%;
