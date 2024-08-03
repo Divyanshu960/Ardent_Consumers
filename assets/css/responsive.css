@@ -112,7 +112,9 @@
         padding-left: 30px;
         padding-right: 30px;
     }
-    
+    .home-main-box .consumer-service-section{
+        column-gap: 10px;
+    }
 }
 
 
@@ -212,7 +214,9 @@ span.des {
 .created-box {
     height: 49%;
 }
-
+.home-main-box .consumer-service-section{
+    column-gap: 15px;
+}
 }
 
 
