@@ -698,9 +698,7 @@ span.des {
     .transactions-box-area .consumer-service-section .service-box{
         width:100px;
     }
-    .transactions-box-area .consumer-service-section .service-box {
-        /* max-width: 115px; */
-    }
+    
     .transactions-box-area .consumer-service-section .service-box .image img {
         height: 50px;
     }
@@ -1735,7 +1733,7 @@ span.des {
     .transactions-box-area .consumer-service-section {
         padding: 20px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         column-gap: 0px;
         
     }
@@ -1887,7 +1885,7 @@ span.des {
         padding: 0px 16px;
     }
     .home-main-box .consumer-service-section {
-        justify-content: space-around;
+        justify-content: space-between;
         display: flex;
         margin-top: 32px;
         row-gap: 25px;
@@ -1941,7 +1939,9 @@ span.des {
         background: var(--colors-neutrals-1, rgba(54, 52, 50, 1));
     }
 
-
+    #restra{
+        margin-left:-12px;
+    }
     .inner-banner {
         padding: 25px 29px;
     }
