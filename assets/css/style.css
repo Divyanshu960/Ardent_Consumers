@@ -131,7 +131,9 @@ body {
     z-index: 1;
     overflow: hidden;
 } */
-
+#carwa{
+    max-width:70px;
+}
 #video-container {
     height: 100%;
     width: 100vw;
@@ -2036,12 +2038,4 @@ main.inner-page-main.height_f.contact-us-page {
 
 .mobile-image {
     display: none;
-}
-.sponsors-text{
-    width: 90%; /* Adjust the width as needed */
-    max-width: 1000px; /* Set a maximum width for better readability */
-    margin: 0 auto; /* Center the div horizontally */
-    text-align: center;
-    padding-left: 60px; 
-    padding-right: 60px; 
 }
