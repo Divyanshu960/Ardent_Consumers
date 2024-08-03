@@ -112,6 +112,7 @@
         padding-left: 30px;
         padding-right: 30px;
     }
+    
 }
 
 
@@ -167,8 +168,8 @@ span.des {
     font-size: 58px;
 }
 .home-main-box .service-box {
-    max-width: 144px;
-    border-left: 2px solid #FFFFFF80;
+    /* max-width: 144px; */
+    /* border-left: 2px solid #FFFFFF80; */
     display: flex;
     align-items: center;
 }
@@ -188,7 +189,7 @@ span.des {
 
 
 .transactions-box-area .consumer-service-section .service-box {
-    max-width: 144px;
+    /* max-width: 144px; */
 }
 .transactions-box-area .consumer-service-section .service-box .image img {
     height: 68px;
@@ -298,7 +299,7 @@ span.des {
         column-gap: 20px;
     }
     .home-main-box .service-box {
-        max-width: 144px;
+        /* max-width: 144px; */
     }
     .home-main-box .service-box h4 {
         font-size: 18px;
@@ -317,7 +318,7 @@ span.des {
         height: 312px;
     }
     .transactions-box-area .consumer-service-section .service-box {
-        max-width: 168px;
+        /* max-width: 168px; */
     }
     .transactions-box-area .consumer-service-section .service-box .image img {
         height: 70px;
@@ -401,7 +402,7 @@ span.des {
 
     }
     .home-main-box .service-box {
-        max-width: 110px;
+        /* max-width: 110px; */
         column-gap: 26px;
     }
     .client-testimonial .client-content {
@@ -425,7 +426,7 @@ span.des {
         text-align: center;
     }
     .transactions-box-area .consumer-service-section .service-box {
-        max-width: 151px;
+        /* max-width: 151px; */
     }
     .transactions-box-area .consumer-service-section .service-box .image img {
         height: 66px;
@@ -470,7 +471,7 @@ span.des {
         column-gap: 19px;
     }
     .home-main-box .service-box {
-        max-width: 111px;
+        /* max-width: 111px; */
         width: min-content;
     }
     .home-main-box .service-box h4 {
@@ -519,14 +520,14 @@ span.des {
         margin-top: 25px;
     }
     .home-main-box .service-box {
-        max-width: 140px;
+        /* max-width: 140px; */
         width: min-content;
     }
     .home-main-box .service-box h4 {
         font-size: 18px;
     }
     .home-main-box .service-box .image img {
-        height: 45px;
+        /* height: 45px; */
     }
     .transactions-box-area .transactions-box h2 {
         font-size: 36px;
@@ -562,8 +563,8 @@ span.des {
         margin-right: 10px;
     }
     .home-main-box .service-box{
-        max-width: 80px;
-        transform: scale(0.8) ;
+        /* max-width: 80px; */
+        /* transform: scale(0.8) ; */
     }
     .consumer-deals-box {
         height: 100%;
@@ -606,7 +607,7 @@ span.des {
         padding: 0px 21px;
     }
     .home-main-box .consumer-service-section {
-        column-gap: 0px;
+        column-gap: 10px;
         padding-right: 0px;
     }
     .home-main-box .service-box .image img {
@@ -690,8 +691,11 @@ span.des {
         letter-spacing: 2.6px;
         margin-bottom: 26px;
     }
+    .transactions-box-area .consumer-service-section .service-box{
+        width:100px;
+    }
     .transactions-box-area .consumer-service-section .service-box {
-        max-width: 115px;
+        /* max-width: 115px; */
     }
     .transactions-box-area .consumer-service-section .service-box .image img {
         height: 50px;
@@ -1727,8 +1731,8 @@ span.des {
     .transactions-box-area .consumer-service-section {
         padding: 20px;
         display: flex;
-        justify-content: flex-start;
-        column-gap: 19px;
+        justify-content: space-around;
+        column-gap: 0px;
         
     }
     video.bg_vid {
@@ -1879,7 +1883,7 @@ span.des {
         padding: 0px 16px;
     }
     .home-main-box .consumer-service-section {
-        justify-content: space-between;
+        justify-content: space-around;
         display: flex;
         margin-top: 32px;
         row-gap: 25px;
@@ -1902,7 +1906,7 @@ span.des {
     }
     .service-box {
         width: 42%;
-        border-left: 2px solid #FFFFFF80;
+        /* border-left: 2px solid #FFFFFF80; */
         margin-right: 24px;
         display: flex;
         align-items: center;
@@ -2376,7 +2380,8 @@ span.des {
         color: var(--colors-primary-1, #0A124E);
     }
     .home-main-box .service-box {
-        max-width: 130px;
+        width:100px;
+        /* max-width: 130px; */
         /* width: min-content; */
     }
     

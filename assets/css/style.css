@@ -131,9 +131,6 @@ body {
     z-index: 1;
     overflow: hidden;
 } */
-#carwa{
-    max-width:70px;
-}
 #video-container {
     height: 100%;
     width: 100vw;
@@ -641,13 +638,14 @@ iframe{
 }
 
 .service-box {
-    max-width: 192px;
-    border-left: 2px solid #FFFFFF80;
+    max-width: 100%;
+    
     display: flex;
     align-items: center;
 }
 
 .consumer-service-section .service-box h4 {
+    display:none;
     font-family: Nohemi;
     font-size: 24px;
     font-weight: 500;
@@ -1053,14 +1051,15 @@ header.inner-header .get-in-touch-btn {
     padding-right:24px;
 }
 .home-main-box .service-box {
-    max-width: 144px;
+    max-width: 100%;
     height: 68px;
-    border-left: 2px solid #FFFFFF80;
+    /* border-left: 2px solid #FFFFFF80; */
     display: flex;
     align-items: center;
 }
 
 .home-main-box .service-box h4 {
+    display: none;
     font-family: Nohemi;
     font-size: 24px;
     font-weight: 500;
@@ -1594,11 +1593,12 @@ video#video {
     height: 40px;
     width: 40px;
     background: var(--colors-primary-0, #040A34);
-    border-radius: 69px;
+    border-radius: 50%;
     font-family: Nohemi;
     font-size: 24px;
     font-weight: 500;
-    outline: 8px solid #A3BFF866;
+    /* Removed outline and added box-shadow */
+    box-shadow: 0 0 0 8px #040A34;
     line-height: 23.11px;
     text-align: center;
     color: var(--colors-neutrals-5, #FAFAFA);
