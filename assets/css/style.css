@@ -1564,7 +1564,7 @@ video#video {
 .consumer-business-content-box ul li {
     list-style: none;
     position: relative;
-    padding-left: 54px;
+    padding-left: 80px;
     margin-top: 13%;
     
 }
@@ -1585,7 +1585,7 @@ video#video {
 }
 
 .numbersc {
-    padding: 8px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     position: absolute;
     top: 0;
     display: flex;
@@ -1605,7 +1605,11 @@ video#video {
     text-align: center;
     color: var(--colors-neutrals-5, #FAFAFA);
 }
-
+.jupdate {
+    
+    margin-top: -60px;
+    
+}
 .side-deals-box.consumer-business-box {
     display: flex;
     border: none;

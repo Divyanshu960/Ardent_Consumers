@@ -281,6 +281,9 @@ span.des {
     .home-main-box .service-box h4{
         font-size:20px;
     }
+    /* .about-box-area .bottom-area .about-bottom-box p{
+        margin-bottom: -25px;
+    } */
 }
 
 
@@ -1509,7 +1512,7 @@ span.des {
         background: var(--colors-neutrals-1, rgba(54, 52, 50, 1));
     }
     .inner-logo img {
-        height: 40px;
+        height: 50px;
         width: auto;
     }
     .logo-man {
@@ -1928,14 +1931,14 @@ span.des {
     }
 
     .inner-logo img {
-        height: 40px;
+        height: 50px;
         width: auto;
     }
     
     .logo-man {
         display: flex;
         width: 50%;
-        column-gap: 36px;
+        column-gap: 28px;
     }
     
     .logo-man #toggle div {
@@ -2395,14 +2398,17 @@ span.des {
     .consumer-business-content-box ul li:nth-child(1) {
         margin-left: 0;
         margin-top:20px;
+        padding-left:60px;
     }
     .consumer-business-content-box ul li:nth-child(2){
         margin-left: 0;
         margin-top:20px;
+        padding-left:60px;
     }
     .consumer-business-content-box ul li:nth-child(3) {
         margin-left: 0;
         margin-top:20px;
+        padding-left:60px;
     }
     .contact-box-area .col-sm-8.col-12.p-0 {
         width: 100%;
