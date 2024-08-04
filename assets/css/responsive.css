@@ -377,6 +377,10 @@ span.des {
     .lower_head {
         margin-top: 10px;
     }
+    .jupdate {
+    
+        margin-top: 0px;
+    }
     .sponsors-text{
         width: 90%; /* Adjust the width as needed */
         max-width: 1000px; /* Set a maximum width for better readability */
@@ -1613,6 +1617,10 @@ span.des {
         margin-left: 0px;
         margin-right: 0px;
     }
+    .jupdate {
+    
+        margin-top: 0px;
+    }
     
 }
 
@@ -1623,7 +1631,10 @@ span.des {
     .mobile-image {
         display: block;
     }
-
+    .jupdate {
+    
+        margin-top: 0px;
+    }
     .for-sponsors-box-area.for-consumer-business .side-deals-box .side-image img{
         height:auto;
         width:100%;
