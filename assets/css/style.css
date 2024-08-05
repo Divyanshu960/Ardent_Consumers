@@ -200,9 +200,10 @@ section.hero_section {
     overflow: hidden;
     position: relative;
     text-align: center;
-    height: 90vh;
+    height: 100vh;
     border-top: none;
     border-bottom: none;
+    min-height: 100%;
 }
 
 .usp_heading {
