@@ -2435,7 +2435,7 @@ span.des {
         border: none;
         flex-shrink: 0;
         background: var(--Primary-white, #F0EEE9);
-        padding: 15px 6px 6px 12px;
+        padding: 12px 6px 6px 12px;
         display: flex;
         align-items: center;
         transition: all 0.3s linear;
