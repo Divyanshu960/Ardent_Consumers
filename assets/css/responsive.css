@@ -2422,6 +2422,11 @@ span.des {
     .contact-box-area .col-sm-4.col-12.p-0 {
         width: 100%;
     }
+    .inner-head {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
     .head-right {
         display: flex;
         align-items: center;
