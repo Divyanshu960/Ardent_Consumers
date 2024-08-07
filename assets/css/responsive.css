@@ -2280,8 +2280,8 @@ span.des {
     }
     
     @keyframes marquee {
-        0% { transform: translateX(10px); }
-        100% { transform: translateX(-50%); }
+        0% { transform: translateX(-50%); }
+        100% { transform: translateX(10px); }
     }
     .microsoft {
         height: 200px;
