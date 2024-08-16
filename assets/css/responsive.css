@@ -37,9 +37,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    /* #restro {
-        margin-right:35px;
-    } */
+
 }
 @media(max-width:1920px){
     .for-sponsors-box-area.for-consumer-business .side-deals-box .side-image img {
@@ -62,22 +60,7 @@
         position: absolute;
         width: 351px;
     }
-    /* .side-deals-box.consumer-business-box span.line1 {
-        top: 19.3%;
-        right: 0;
-    }
-    .side-deals-box.consumer-business-box span.line2 {
-        top: 44.5%;
-        right: -33px;
-        width: 351px;
-    }
-    .side-deals-box.consumer-business-box span.line3 {
-        top: 70%;
-        right: 0;
-        width: 355px;
-    } */
     .for-sponsors-box-area .side-deals-box .side-image img {
-        /* width: 100%; */
         height: auto;
     }
     .for-sponsors-box-area .side-deals-box .side-image {
@@ -89,21 +72,16 @@
     
     #restro {
         margin-left: -35px;
-        /* margin-right: 35px; */
+       
     }
     #carwa
     {
-        /* margin-left: -35px; */
         margin-right: 35px;
     }
     #carwa0 {
         margin-left: 30px;
         padding-right: 35px;
     }
-    /* .consumer-service-section .service-box #restro {
-        margin-left: -35px;
-        margin-right:0px;
-    } */
     .sponsors-text{
         width: 80%;
         max-width: 1200px;
@@ -170,8 +148,6 @@ span.des {
     font-size: 58px;
 }
 .home-main-box .service-box {
-    /* max-width: 144px; */
-    /* border-left: 2px solid #FFFFFF80; */
     display: flex;
     align-items: center;
 }
@@ -190,9 +166,6 @@ span.des {
 }
 
 
-.transactions-box-area .consumer-service-section .service-box {
-    /* max-width: 144px; */
-}
 .transactions-box-area .consumer-service-section .service-box .image img {
     height: 68px;
 }
@@ -281,17 +254,10 @@ span.des {
     .home-main-box .service-box h4{
         font-size:20px;
     }
-    /* .about-box-area .bottom-area .about-bottom-box p{
-        margin-bottom: -25px;
-    } */
 }
 
 
 @media(max-width:1440px) {
-    /* #restro {
-    margin-left: -10px;
-    margin-right: 10px;
-} */
 #carwa0 {
     margin-left: 30px;
     margin-right: 35px;
@@ -305,9 +271,7 @@ span.des {
     .home-main-box .consumer-service-section {
         column-gap: 20px;
     }
-    .home-main-box .service-box {
-        /* max-width: 144px; */
-    }
+    
     .home-main-box .service-box h4 {
         font-size: 18px;
         margin-left: -36px;
@@ -324,9 +288,7 @@ span.des {
     .client-testimonial {
         height: 312px;
     }
-    .transactions-box-area .consumer-service-section .service-box {
-        /* max-width: 168px; */
-    }
+    
     .transactions-box-area .consumer-service-section .service-box .image img {
         height: 70px;
     }
@@ -382,9 +344,9 @@ span.des {
         margin-top: 0px;
     }
     .sponsors-text{
-        width: 90%; /* Adjust the width as needed */
-        max-width: 1000px; /* Set a maximum width for better readability */
-        margin: 0 auto; /* Center the div horizontally */
+        width: 90%;
+        max-width: 1000px;
+        margin: 0 auto;
         text-align: center;
         padding-left: 60px; 
         padding-right: 60px; 
@@ -404,7 +366,6 @@ span.des {
         margin-right: 0px;
     }
     #carwa0{
-        /* margin-left: 0px; */
         margin-right: 0px;
     }
     .home-main-box .consumer-service-section {
@@ -413,7 +374,6 @@ span.des {
 
     }
     .home-main-box .service-box {
-        /* max-width: 110px; */
         column-gap: 26px;
     }
     .client-testimonial .client-content {
@@ -435,9 +395,6 @@ span.des {
     .client-testimonial {
         height: auto;
         text-align: center;
-    }
-    .transactions-box-area .consumer-service-section .service-box {
-        /* max-width: 151px; */
     }
     .transactions-box-area .consumer-service-section .service-box .image img {
         height: 66px;
@@ -540,9 +497,6 @@ span.des {
     .home-main-box .service-box h4 {
         font-size: 18px;
     }
-    .home-main-box .service-box .image img {
-        /* height: 45px; */
-    }
     .transactions-box-area .transactions-box h2 {
         font-size: 36px;
     }
@@ -576,10 +530,7 @@ span.des {
         margin-left: -20px;
         margin-right: 10px;
     }
-    .home-main-box .service-box{
-        /* max-width: 80px; */
-        /* transform: scale(0.8) ; */
-    }
+
     .consumer-deals-box {
         height: 100%;
     }
@@ -1104,10 +1055,6 @@ span.des {
         padding: 0px 0px;
         
     }
-    /* section.hero_section .container-fluid,
-    section.hero_section .row {
-        height: 100%;
-    } */
     section.hero_section .row .col-lg-10.col-12 {
         height: 85%;
         
@@ -1925,7 +1872,6 @@ span.des {
     }
     .service-box {
         width: 42%;
-        /* border-left: 2px solid #FFFFFF80; */
         margin-right: 24px;
         display: flex;
         align-items: center;
@@ -2225,7 +2171,6 @@ span.des {
         background: var(--colors-primary-3, #6C78D3);
         height: 60px;
         width: 75px;
-        /* display: flex; */
         justify-content: center;
         align-items: center;
         border-radius: 32px;
@@ -2402,8 +2347,6 @@ span.des {
     }
     .home-main-box .service-box {
         width:100px;
-        /* max-width: 130px; */
-        /* width: min-content; */
     }
     
     .consumer-business-content-box ul li:nth-child(1) {
@@ -2427,9 +2370,5 @@ span.des {
     
     .contact-box-area .col-sm-4.col-12.p-0 {
         width: 100%;
-    }
-    
-    
-    
+    }  
 }
-

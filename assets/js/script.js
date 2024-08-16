@@ -50,20 +50,6 @@ $(document).ready(function() {
   $(".menu").slideToggle();
   $(".all-secreen-ele").toggleClass("hide");
   });
-
-
-
-
-
-
-  // function checkWidthAndAddAttribute() {
-  //   if (window.innerWidth => 480) {
-  //       let marquee = document.querySelector('.sidebar marquee');
-  //       marquee.setAttribute('direction', 'right');
-  //   }
-  // }
-  
-  
   circlePlayButton.addEventListener("click", togglePlay);
   video.addEventListener("playing", function () {
   circlePlayButton.style.opacity = 0;
